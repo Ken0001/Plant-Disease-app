@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainac"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poemlo_bg"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/chosenImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/todo"
+        android:background="@drawable/bg_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+<!--        app:srcCompat="@drawable/ic_launcher_foreground" />-->
+
+    <TextView
+        android:id="@+id/imageTextView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/noImage"
+        android:textSize="20sp"
+        android:fontFamily="@font/notosanstc_regular"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/upload_btn"
+        android:fontFamily="@font/notosanstc_regular"
+        app:backgroundTint="#04A092"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chosenImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

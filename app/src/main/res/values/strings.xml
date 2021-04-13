@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Plant</string>
+    <string name="upload_btn">上傳圖片</string>
+    <string name="todo">TODO</string>
+    <string name="callBtn">諮詢專線</string>
+    <string name="medBtn">用藥建議</string>
+    <string name="noImage">點此選擇圖片</string>
+    <string name="uploading">上傳中...</string>
+</resources>

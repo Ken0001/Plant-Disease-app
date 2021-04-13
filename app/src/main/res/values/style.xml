@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Custom" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">With Custom Style…</item>
+        <item name="DialogSpotColor">#45929C</item>
+        <item name="DialogSpotCount">6</item>
+    </style>
+
+
+    <style
+        name="popup_window_animation_phone">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+    </style>
+
+    <style name="Button.Custom" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">#5B715C</item>
+    </style>
+</resources>
